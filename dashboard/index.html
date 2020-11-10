@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/solid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/regular.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="asset/css/home.css">
+</head>
+<body>
+	<div class="content">
+		<header class="shadow p-3 mb-4 bg-white">
+			<div class="container">
+				<div class="leftHeader">
+					<h4>Zwallet</h4>
+				</div>
+				<div class="rightHeader">
+					<div class="media">
+						<img class="align-self-center mr-3" src="asset/img/client1.png" alt="user">
+						<div class="media-body">
+							<h6 class="name font-weight-bold">Robert Chandler</h6>
+							<span class="number">+62 8139 3877 7946</span>
+						</div>
+						<i class="align-self-center ml-4 far fa-bell fa-lg"></i>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container mb-4 containerMobile">
+			<div class="row">
+				<div class="col-sm-3">
+					<nav class="shadow-lg p-3 bg-white navbars">
+						<div class="menu active">
+							<li class=" mb-4 mt-4 pl-4">
+								<a href="#">
+									<i class="fas fa-th-large mr-3"></i>
+									<span>Dashboard</span>
+								</a>
+							</li>
+						</div>
+						<div class="menu">
+							<li class=" mb-4 mt-4 pl-4">
+								<a href="#">
+									<i class="fas fa-arrow-up mr-3"></i>
+									<span>Transfer</span>
+								</a>
+							</li>
+						</div>
+						<div class="menu">
+							<li class=" mb-4 mt-4 pl-4">
+								<a href="#">
+									<i class="fas fa-plus mr-3"></i>
+									<span>Top Up</span>
+								</a>
+							</li>
+						</div>
+						<div class="menu">
+							<li class=" mt-4 pl-4">
+								<a href="#">
+									<i class="far fa-user mr-3"></i>
+									<span>Profile</span>
+								</a>
+							</li>
+						</div>
+						<div class="menu">
+							<li class="mt-4 pl-4 logout">
+								<a href="#">
+									<i class="fas fa-sign-out-alt mr-3"></i>
+									<span>Logout</span>
+								</a>
+							</li>
+						</div>
+					</nav>
+				</div>
+				<div class="col-sm">
+					<div class="shadow-lg pl-3 pr-3 pt-1 balance">
+						<div class="row pl-2 pr-2">
+							<div class="col">
+								<div class="row mt-3">
+									<div class="col text-opacity textBalance">Balance</div>
+									<div class="w-100"></div>
+									<div class="col">
+										<h2 class="font-weight-bold">Rp. 120.000</h2>
+									</div>
+									<div class="w-100"></div>
+									<div class="col text-opacity telp">+62 813-9387-7946</div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="row text-right buttons">
+									<div class="col mb-2">
+										<button class="btn">
+											<i class="text-opacity fas fa-arrow-up mr-3"></i>
+											<span>Transfer</span>
+										</button>
+									</div>
+									<div class="w-100"></div>
+									<div class="col">
+										<button class="btn">
+											<i class="text-opacity fas fa-plus mr-3"></i>
+											<span>Top Up</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-7">
+							<div class="shadow-lg p-3 bg-white chart">
+								<div class="row">
+									<div class="col">
+										<div class="row income">
+											<div class="col" style="color: #1EC15F; font-size: 24px;">
+												<i class="fas fa-arrow-down"></i>
+											</div>
+											<div class="w-100"></div>
+											<div class="col text-secondary">Income</div>
+											<div class="w-100"></div>
+											<div class="col">
+												<h5 class="font-weight-bold">Rp. 2.120.000</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="row expense">
+											<div class="col" style="color: #FF5B37; font-size: 24px;">
+												<i class="fas fa-arrow-up"></i>
+											</div>
+											<div class="w-100"></div>
+											<div class="col text-secondary">Expense</div>
+											<div class="w-100"></div>
+											<div class="col">
+												<h5 class="font-weight-bold">Rp. 1.560.000</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row graphic">
+									<div class="col d-flex justify-content-center">
+										<div class="graph-size graph0"></div>
+										<span class="day">Sat</span>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<div class="graph-size graph1"></div>
+										<span class="day">Sun</span>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<div class="graph-size graph2"></div>
+										<span class="day">Mon</span>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<div class="price p-1 shadow-lg bg-white">+Rp65.000</div>
+										<img class="marker" src="asset/img/icon/Ellipse 11.png" width="60px;" height="60px;">
+										<div class="graph-size graph3"></div>
+										<span class="day">Tue</span>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<div class="graph-size graph4"></div>
+										<span class="day">Wed</span>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<div class="graph-size graph5"></div>
+										<span class="day">Thu</span>
+									</div>
+									<div class="col d-flex justify-content-center">
+										<div class="graph-size graph6"></div>
+										<span class="day">Fri</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm">
+							<div class="shadow-lg p-3 bg-white transaction">
+								<div class="row">
+									<div class="col-8">
+										<span class="texts">Transaction History</span>
+									</div>
+									<div class="col text-right">
+										<a class="text-allTrans" href="">See all</a>
+									</div>
+								</div>
+
+								<div class="media mediaTop">
+									<img class="align-self-center mr-3" src="asset/img/client2.png" alt="user">
+									<div class="media-body">
+										<h6 class="names">Samuel Suhi</h6>
+										<span class="info">Transfer</span>
+									</div>
+									<span class="align-self-center pricesPlus">+Rp50.000</span>
+								</div>
+								<div class="media mediaTop">
+									<img class="align-self-center mr-3" src="asset/img/netflix.png" alt="user">
+									<div class="media-body">
+										<h6 class="names">Netflix</h6>
+										<span class="info">Subscription</span>
+									</div>
+									<span class="align-self-center prices">-Rp149.000</span>
+								</div>
+								<div class="media mediaTop">
+									<img class="align-self-center mr-3" src="asset/img/client3.png" alt="user">
+									<div class="media-body">
+										<h6 class="names">Christine Mar...</h6>
+										<span class="info">Transfer</span>
+									</div>
+									<span class="align-self-center pricesPlus">+Rp150.000</span>
+								</div>
+								<div class="media mediaTop">
+									<img class="align-self-center mr-3" src="asset/img/logo.png" alt="user">
+									<div class="media-body">
+										<h6 class="names">Adobe Inc.</h6>
+										<span class="info">Subscription</span>
+									</div>
+									<span class="align-self-center prices">-Rp249.000</span>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer style="position:relative;">
+				<span class="copyright">2020 Zwallet. All right reserved.</span>
+				<span class="numberFooter">+62 5637 8882 9901</span>
+				<span class="emailFooter">contact@zwallet.com</span>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

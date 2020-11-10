@@ -1,0 +1,147 @@
+   body {
+    font-family: Nunito Sans;
+    font-size: 16px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 100vh;
+  }
+  /*flex item left*/
+  .flex-item-left {
+    overflow: hidden;
+    position: relative;
+    color: white;
+    background-color: #6379F4;
+    padding: 10px;
+    flex: 50%;  
+  }
+  .text-title{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    top: 3%;
+    left: 16%;
+
+  }
+  .vector{
+    position: absolute;
+    top: 5%;
+    width: 50vw;
+    left: -2.5%;
+  }
+  .png_phone1{
+    z-index: 1;
+    position: absolute;
+    width: 21vw;
+    top: 10%;
+    left: 32%;
+  }
+  .png_phone2{
+    position: absolute;
+    width: 20vw;
+    top: 10%;
+    left: 13%;
+  }
+  .content-title{
+    position: absolute;
+    top: 72%;
+    left: 15%;
+    font-size: 20px;
+  }
+  .description{
+    position: absolute;
+    top: 78%;
+    left: 15%;
+    right: 12%;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  /*flex item rifht*/
+  .flex-item-right {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+  }
+  .title-right, .description-right{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 25%;
+    text-align: justify;
+  }
+  .title-right{
+    margin-top: 5%;
+    font-size: 22px;
+  }
+  .description-right{
+    margin-top: 4%;
+    font-size: 16px;
+  }
+
+  .inputContainer {
+   position: relative;
+   margin-top: 8%;
+   margin-left: 10%;
+   margin-right: 30%;
+   color: rgba(169, 169, 169, 0.8);
+ }
+ .inputContainer i {
+   position: absolute;
+ }
+ .icon {
+   text-align: left;
+   margin-left: 1%;
+   margin-top: 3px;
+ }
+.inputContainer input {
+  width: 100%;
+  padding-left: 35px;
+  padding-bottom: 2%;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color:rgba(169, 169, 169, 0.8);
+  color: rgba(169, 169, 169, 0.8);
+  font-size: 18px;
+}
+::placeholder {
+  color: rgba(169, 169, 169, 0.8);
+}
+.button{
+  margin-right: 25%;
+}
+.button button{
+  width: 100%;
+  margin-top:10%;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #88888F;
+  border-radius: 12px;
+  border:none;
+  background-color: #DADADA;
+}
+
+button:focus{
+  outline:none;
+}
+/* Responsive layout */
+@media (max-width: 800px) {
+  /*flex item left*/
+  .flex-item-left{
+    display: none;
+  }
+
+  /*flex item right*/
+  .title-right, .description-right{
+    margin-top: 2%;
+    margin-right: 18%;
+  }
+
+
+}
