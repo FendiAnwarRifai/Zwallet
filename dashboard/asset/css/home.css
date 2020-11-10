@@ -2,11 +2,13 @@
 			font-size: 16px;
 			background-color: #FAFCFF;
 		}
-		.container{
-			padding: 8px 0px;
-			
-		}
+		
 		/*header content*/
+		.headerContent{
+			width: 100%;
+			padding-right: 115px;
+			padding-left: 115px;
+		}
 		header{
 			display: flex;
 			border-bottom-left-radius: 15px;
@@ -215,6 +217,10 @@
 			position:absolute; right: 108px;
 		}
 		@media (max-width: 800px){
+			.headerContent{
+				padding-right: 0px;
+				padding-left: 0px;
+			}
 			.name{
 				font-size: 14px;
 				margin-bottom: 5px;
@@ -230,14 +236,17 @@
 				position: static;
 			}
 
+			.priceBalance{
+				padding-right:0px;
+			}
 			.balance h2{
-				font-size: 24px;
+				font-size: 22px;
 			}
 			.telp{
 				font-size: 13px;
 			}
 			.textBalance{
-				margin-top: 5px;
+				margin-top: 12px;
 				margin-bottom:0px;
 			}
 			.telp{
@@ -255,19 +264,29 @@
 
 			.chart{
 				margin-bottom: 20px;
+				height: 65vh;
 			}
 			.income h5, .expense h5{
 				font-size: 18px;
 			}
+			.income{
+				padding-left:5px;
+			}
 			.expense{
-				margin-left: 5px;
+				margin-left: -6px;
 			}
 			.graphic{
 				margin-top: 10px;
+				padding-left: 20px;
+				padding-right:20px;
 			}
 			.graph-size{
 				width: 8px;
 			}
+			.transaction{
+				height: 70vh;
+			}
+
 			footer{
 				height:14vh;
 			}
