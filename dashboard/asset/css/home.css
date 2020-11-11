@@ -1,315 +1,302 @@
-		body {
-			font-size: 16px;
-			background-color: #FAFCFF;
-		}
-		
-		/*header content*/
-		.headerContent{
-			width: 100%;
-			padding-right: 115px;
-			padding-left: 115px;
-		}
-		header{
-			display: flex;
-			border-bottom-left-radius: 15px;
-			border-bottom-right-radius: 15px;
-		}
-		.leftHeader{
-			color: #6379F4;
-			float:left;
-			padding-top: 10px;
-		}
+		/* *{
+		 	border: 1px solid blue;
+		 }*/ 
+		 body {
+		 	font-size: 16px;
+		 	background-color: #FAFCFF;
+		 }
 
-		.rightHeader{
-			float: right;
-		}
-		.name{
-			font-size: 18px;
-		}
-		/*end header content*/
+		 /*header content*/
+		 .headerContent{
+		 	width: 100%;
+		 	padding-right: 115px;
+		 	padding-left: 115px;
+		 }
+		 header{
+		 	display: flex;
+		 	border-bottom-left-radius: 15px;
+		 	border-bottom-right-radius: 15px;
+		 }
+		 .leftHeader{
+		 	color: #6379F4;
+		 	float:left;
+		 	padding-top: 10px;
+		 }
 
-		/*class navbar left	*/
-		.navbars{
-			position: relative;
-			height: 90vh;
-			border-radius: 20px;
-		}
-		.navbars i{
-			font-size: 22px;
-		}
-		.navbars span{
-			position: absolute;
-			font-size: 15px;
-		}
-		li{
-			list-style-type: none;
-		}
-		.menu:hover , .active{
-			border-left: 4px solid #6379F4;
-			margin-left: -16px;
-			padding-left: 12px;
-		}
-		.menu:hover a , .active a{
-			color: #6379F4;
-			font-weight: bold;
-		}
-		a{
-			color: #3A3D42;
-		}
-		.logout{
-			position: absolute;
-			bottom: 20px;
-		}
-		/*end navbar left*/
+		 .rightHeader{
+		 	float: right;
+		 }
+		 .name{
+		 	font-size: 18px;
+		 }
+		 /*end header content*/
 
+		 /*class navbar left	*/
+		 .navbars{
+		 	position: relative;
+		 	height: max-content !important;
+		 	border-radius: 20px;
+		 }
+		 .navbars i{
+		 	font-size: 22px;
+		 }
+		 .navbars span{
+		 	font-size: 15px;
+		 }
+		 li{
+		 	list-style-type: none;
+		 }
+		 .menu:hover , .active{
+		 	border-left: 4px solid #6379F4;
+		 	margin-left: -16px;
+		 	padding-left: 12px;
+		 }
+		 .menu:hover a , .active a{
+		 	text-decoration: none;
+		 	color: #6379F4;
+		 	font-weight: bold;
+		 }
 
-		.balance{
-			background-color:#6379F4;
-			border-radius: 20px;
-			height: 22.5vh;
-			margin-bottom: 20px;
-			color: white;
-		}
-		.textBalance{
-			margin-bottom: 8px;
-		}
-		.telp{
-			margin-top:5px;
-		}
-		.buttons{
-			margin-top:20px;
-		}
-		button{
-			width:160px;
-			height: 50px;
-		}
-		.btn{
-			border: 1px solid white;
-			border-radius: 10px;
-			color: white;
-			background-color: rgba(255, 255, 255, 0.2);
-		}
-		.text-opacity{
-			color: #E0E0E0;
-		}
+		 a{
+		 	color: #3A3D42;
+		 }
+		 .logout{
+		 	margin-top: 398px;
+
+		 }
+		 /*end navbar left*/
 
 
-		.graphic{
-			margin-top: 45px;
-			padding-left: 40px;
-			padding-right:40px;
-		}
-		.day{
-			position: absolute; 
-			top:245px;
-			color: #8F8F8F;
-		}
-		.graph-size{
-			width: 14px;
-			border-radius: 15px;
-		}
-		.graph0{
-			margin-top: 11px;
-			height: 223px;
-			background-color: #6379F4;
-		}
-		.graph1{
-			height: 97px;
-			margin-top: 137px;
-			background-color: #6379F4;
-		}
-		.graph2{
-			height: 149px;
-			margin-top: 85px;
-			background-color: #9DA6B5;
+		 .balance{
+		 	background-color:#6379F4;
+		 	border-radius: 20px;
+		 	margin-bottom: 20px;
+		 	color: white;
+		 	padding: 30px;
+		 }
+		 .textBalance{
+		 	margin-bottom: 8px;
+		 }
+		 .telp{
+		 	margin-top:5px;
+		 }
+		 button{
+		 	width:160px;
+		 	height: 50px;
+		 }
+		 .btn{
+		 	border: 1px solid white;
+		 	border-radius: 10px;
+		 	color: white;
+		 	background-color: rgba(255, 255, 255, 0.2);
+		 }
+		 .text-opacity{
+		 	color: #E0E0E0;
+		 }
+		 .chart{
+		 	position: relative;
+		 	border-radius: 20px;
+		 	height: max-content !important;
+		 	padding: 40px;
+		 }
+		 .income{
+		 	margin-right: 20%;
+		 }
+		 .expense{
 
-		}
-		.price{
-			position: absolute; 
-			top:12px; 
-			font-weight: bold; 
-			font-size: 12px; 
-			color: #1EC15F;
-		}
-		.marker{
-			position: absolute; 
-			top:31px;
-		}
-		.graph3{
-			height: 183px;
-			margin-top: 51px;
-			background-color: #9DA6B5;
+		 }
+		 .graphic{
+		 	margin-bottom: 32px;
+		 }
+		 .day{
+		 	position: absolute; 
+		 	top:245px;
+		 	color: #8F8F8F;
+		 }
+		 .graph-size{
+		 	width: 14px;
+		 	border-radius: 15px;
+		 }
+		 .graph0{
+		 	margin-top: 11px;
+		 	height: 223px;
+		 	background-color: #6379F4;
+		 }
+		 .graph1{
+		 	height: 97px;
+		 	margin-top: 137px;
+		 	background-color: #6379F4;
+		 }
+		 .graph2{
+		 	height: 149px;
+		 	margin-top: 85px;
+		 	background-color: #9DA6B5;
 
-		}
-		.graph4{
-			height: 138px;
-			margin-top: 96px;
-			background-color: #9DA6B5;
+		 }
+		 .price{
+		 	position: absolute; 
+		 	top:12px; 
+		 	font-weight: bold; 
+		 	font-size: 12px; 
+		 	color: #1EC15F;
+		 }
+		 .marker{
+		 	position: absolute; 
+		 	top:31px;
+		 }
+		 .graph3{
+		 	height: 183px;
+		 	margin-top: 51px;
+		 	background-color: #9DA6B5;
 
-		}
-		.graph5{
-			height: 197px;
-			margin-top: 37px;
-			background-color: #6379F4;
+		 }
+		 .graph4{
+		 	height: 138px;
+		 	margin-top: 96px;
+		 	background-color: #9DA6B5;
 
-		}
-		.graph6{
-			height: 155px;
-			margin-top: 79px;
-			background-color: #9DA6B5;
+		 }
+		 .graph5{
+		 	height: 197px;
+		 	margin-top: 37px;
+		 	background-color: #6379F4;
 
-		}
-		.chart{
-			border-radius: 20px;
-			height: 65vh;
-		}
-		.expense{
-			margin-left: 50px;
-		}
+		 }
+		 .graph6{
+		 	height: 155px;
+		 	margin-top: 79px;
+		 	background-color: #9DA6B5;
 
-		.transaction{
-			border-radius: 20px;
-			height: 65vh;
-		}
-		.texts{
-			font-weight: bold;
-			font-size: 18px;
-			color: #3A3D42;
-		}
-		.text-allTrans , .text-allTrans:hover{
-			text-decoration: none;
-			font-size: 14px;
-			line-height: 19px;
-			color: #6379F4;
-		}
-		.mediaTop{
-			margin-top: 38px;
-		}
-		.names{
-			font-weight: bold;
-			font-size: 16px;
-			color: #4D4B57;
-		}
-		.info{
-			font-size: 14px;
-			color: #7A7886;
-		}
-		.prices{
-			font-weight: bold;
-			font-size: 16px;
-			color: #FF5B37;
-		}
-		.pricesPlus{
-			font-weight: bold;
-			font-size: 16px;
-			color: #1EC15F;
-		}
+		 }
 
-		footer{
-			padding:15px 90px 15px 115px;
-			color: white;
-			background: #6379F4;
-		}
-		.numberFooter{
-			position:absolute; right: 295px;
-		}
-		.emailFooter{
-			position:absolute; right: 108px;
-		}
-		@media (max-width: 992px){
-			.headerContent{
-				padding-right: 0px;
-				padding-left: 0px;
-			}
-			.name{
-				font-size: 14px;
-				margin-bottom: 5px;
-			}
-			.number{
-				font-size: 12px;
-			}
-			.navbars{
-				height: 45vh;
-				margin-bottom:20px;
-			}
-			.logout{
-				position: static;
-			}
 
-			.priceBalance{
-				padding-right:0px;
-			}
-			.balance h2{
-				font-size: 22px;
-			}
-			.telp{
-				font-size: 13px;
-			}
-			.textBalance{
-				margin-top: 12px;
-				margin-bottom:0px;
-			}
-			.telp{
-				margin-top:0px;
-			}
-			.buttons{
-				margin-top:25px;
-			}
-			button{
-				width:120px;
-				height: 40px;
-			}
+		 .transaction{
+		 	border-radius: 20px;
+		 	padding: 25px;
+
+		 }
+		 .texts{
+		 	font-weight: bold;
+		 	font-size: 18px;
+		 	color: #3A3D42;
+		 }
+		 .text-allTrans , .text-allTrans:hover{
+		 	text-decoration: none;
+		 	font-size: 14px;
+		 	line-height: 19px;
+		 	color: #6379F4;
+		 }
+		 .mediaTop{
+		 	margin-top: 36.5px;
+		 }
+		 .names{
+		 	font-weight: bold;
+		 	font-size: 16px;
+		 	color: #4D4B57;
+		 }
+		 .info{
+		 	font-size: 14px;
+		 	color: #7A7886;
+		 }
+		 .prices{
+		 	font-weight: bold;
+		 	font-size: 16px;
+		 	color: #FF5B37;
+		 }
+		 .pricesPlus{
+		 	font-weight: bold;
+		 	font-size: 16px;
+		 	color: #1EC15F;
+		 }
+
+		 footer{
+		 	padding:15px 90px 15px 115px;
+		 	color: white;
+		 	background: #6379F4;
+		 }
+		 .copyright{
+		 	width:68%;
+		 }
 
 
 
-			.chart{
-				margin-bottom: 20px;
-				height: 65vh;
-			}
-			.income h5, .expense h5{
-				font-size: 18px;
-			}
-			.income{
-				padding-left:5px;
-			}
-			.expense{
-				margin-left: -6px;
-			}
-			.graphic{
-				margin-top: 10px;
-				padding-left: 20px;
-				padding-right:20px;
-			}
-			.graph-size{
-				width: 8px;
-			}
-			.transaction{
-				
-			}
+		 /*mobile only*/
+		 @media only screen and (max-width: 768px) {
+		 	.headerContent{
+		 		padding-right: 0px;
+		 		padding-left: 0px;
+		 	}
+		 	.name{
+		 		font-size: 14px;
+		 		margin-bottom: 5px;
+		 	}
+		 	.number{
+		 		font-size: 12px;
+		 	}
+		 	.navbars{
+		 		height: 45vh;
+		 		margin-bottom:20px;
+		 	}
+		 	.logout{
+		 		margin-top: 0px;
 
-			footer{
-				height:14vh;
-			}
-			.copyright{
-				position:absolute; 
-				left:5px;
-				font-size: 12px;
-			}
-			.numberFooter{
-				position:absolute; 
-				right: 5px;
-				font-size: 12px;
-			}
-			.emailFooter{
-				position:absolute; 
-				bottom: 25px;
-				left: 120px;
-				font-size: 12px;
-			}
+		 	}
 
 
+		 	.balance{
+		 		padding:20px;
+		 	}
+		 	.priceBalance{
+		 		padding-right:0px;
+		 	}
+		 	.balance h2{
+		 		font-size: 22px;
+		 	}
+		 	.telp{
+		 		font-size: 13px;
+		 	}
+		 	.textBalance{
+		 		margin-bottom:0px;
+		 	}
+		 	.telp{
+		 		margin-top:0px;
+		 	}
+		 	button{
+		 		width:120px;
+		 		height: 40px;
+		 	}
 
-		}
-		/*.row , .col, .col-sm{
-			border:1px solid black;
-		}*/
+
+
+		 	.chart{
+
+		 		margin-bottom: 20px;
+		 		padding: 25px;
+		 	}
+		 	.income h5, .expense h5{
+		 		font-size: 18px;
+		 	}
+		 	.income{
+		 		margin-right: 5%;
+		 	}
+		 	.expense{
+
+		 	}
+		 	.graphic{
+		 		margin-top: 10px;
+		 	}
+		 	.graph-size{
+		 		width: 14px;
+		 	}
+
+		 	footer{
+		 		font-size: 12px;
+		 		padding: 20px;
+		 	}
+		 	.copyright{
+		 		width:55%;
+		 	}
+		 	.contactFooter{
+		 		text-align: center;
+		 	}
+		 }
