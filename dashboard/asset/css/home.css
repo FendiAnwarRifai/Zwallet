@@ -216,7 +216,7 @@
 		.emailFooter{
 			position:absolute; right: 108px;
 		}
-		@media (max-width: 800px){
+		@media (max-width: 992px){
 			.headerContent{
 				padding-right: 0px;
 				padding-left: 0px;
@@ -284,7 +284,7 @@
 				width: 8px;
 			}
 			.transaction{
-				height: 70vh;
+				
 			}
 
 			footer{
