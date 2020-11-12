@@ -355,7 +355,7 @@
 		 	/*responsive mobile*/
 		 	@media only screen and (max-width: 767px) {
 		 		footer{
-		 			margin-bottom:66px;
+		 			margin-bottom:62px;
 		 		}
 		 		#navbar{
 		 			display: none;
@@ -371,10 +371,12 @@
 		 		.inline{
 		 			border-radius: 0;
 		 		}
+		 		.inline li{
+		 			font-size: 18px;
+		 			padding-left: 25px;
+		 		}
 		 		.inline i{
-		 			font-size: 20px;
 		 			color: #6c757d;
-		 			padding: 8px;
 		 		}
 		 		.active i, .inline i:hover{
 		 			color: #6379F4;
