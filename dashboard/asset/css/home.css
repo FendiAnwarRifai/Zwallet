@@ -1,6 +1,9 @@
 		/* *{
 		 	border: 1px solid blue;
 		 	} */
+		 	#navbar, #navbarMobile{
+		 		display: none;
+		 	}
 		 	body {
 		 		font-size: 16px;
 		 		background-color: #FAFCFF;
@@ -226,8 +229,13 @@
 
 
 
-		 	/*mobile only*/
+
+		 	/*rsesponsive tablet*/
 		 	@media only screen and (max-width: 990px) {
+		 		#navbar{
+		 			display: block;
+		 		}
+
 		 		.headerContent{
 		 			padding-right: 0px;
 		 			padding-left: 0px;
@@ -239,14 +247,52 @@
 		 		.number{
 		 			font-size: 12px;
 		 		}
-		 		.navbars{
-		 			height: 45vh;
-		 			margin-bottom:20px;
-		 		}
-		 		.logout{
-		 			margin-top: 0px;
 
+
+
+		 		.navbars{
+		 			display: none;
 		 		}
+		 		.active{
+		 			border-left:0px;
+		 		}
+		 		.inline li:hover a , .active a{
+		 			text-decoration: none;
+		 			color: #6379F4;
+		 			font-weight: bold;
+		 		}
+		 		.inline{
+		 			position: relative;
+		 			height: max-content !important;
+		 			border-radius: 20px;
+		 			text-align: center;
+		 			
+		 		}
+		 		.inline li{
+		 			display: inline;
+		 			padding-right:20px; 
+		 			padding-left:30px;
+		 		}
+		 		.sticky {
+		 			z-index: 1;
+		 			position: fixed;
+		 			left:0;
+		 			/*width:calc(100% -50px);*/
+		 			top: 0;
+		 			padding: 0;
+		 			text-align: center;
+		 		}
+		 		.sticky .inline{
+		 			border-radius: 0px;		 		
+		 		}
+		 		.sticky li{
+		 			padding-right:20px; 
+		 			padding-left:40px;
+		 		}
+		 		.sticky + .content {
+		 			padding-top: 60px;
+		 		}
+
 
 
 		 		.balance{
@@ -303,5 +349,37 @@
 		 		.footerNumber{
 		 			float: left;
 		 		}
+
 		 	}
 
+		 	/*responsive mobile*/
+		 	@media only screen and (max-width: 767px) {
+		 		footer{
+		 			margin-bottom:66px;
+		 		}
+		 		#navbar{
+		 			display: none;
+		 		}
+		 		#navbarMobile{
+		 			position: fixed;
+		 			display: block;
+		 			bottom: -16px;
+		 			z-index: 1;
+		 			left: 0;
+		 			right: 0;
+		 		}
+		 		.inline{
+		 			border-radius: 0;
+		 		}
+		 		.inline i{
+		 			font-size: 20px;
+		 			color: #6c757d;
+		 			padding: 8px;
+		 		}
+		 		.active i, .inline i:hover{
+		 			color: #6379F4;
+		 		}
+
+
+		 		
+		 	}
