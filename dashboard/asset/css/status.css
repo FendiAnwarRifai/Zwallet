@@ -66,7 +66,7 @@
                 color: #3A3D42;
             }
             .logout{
-                margin-top: 332px;
+                margin-top: 336px;
                 margin-bottom:20px;
 
             }
@@ -75,7 +75,8 @@
 
             .transaction{
                 border-radius: 20px;
-                padding: 38px;
+                padding: 25px;
+                padding-bottom:38px;
 
             }
             .texts{
@@ -90,7 +91,11 @@
                 color: #6379F4;
             }
             .mediaTop{
-                margin-top: 36.5px;
+                margin-top: 10px;
+            }
+            .TopMedia, .mediaTop{
+                padding: 20px;
+                border-radius: 15px;
             }
             .names{
                 font-weight: bold;
@@ -101,15 +106,33 @@
                 font-size: 14px;
                 color: #7A7886;
             }
-            .prices{
-                font-weight: bold;
-                font-size: 16px;
-                color: #FF5B37;
+
+            .btnCustom{
+                padding: 10px 30px 10px 30px; 
+                font-size: 14px;
+                background-color:#6379F4;
+                border-radius: 12px; 
+                color: white; 
+                margin-top: 30px;
             }
-            .pricesPlus{
-                font-weight: bold;
-                font-size: 16px;
-                color: #1EC15F;
+            .btnDownload{
+                padding: 10px 30px 10px 30px; 
+                font-size: 14px;
+                background: rgba(99, 121, 244, 0.15);
+                border-radius: 12px; 
+                color: #6379F4; 
+                margin-top: 30px;
+            }
+            .pdf{
+                margin-left:10px;
+            }
+            .btnShare{
+                padding: 10px 20px 10px 20px; 
+                font-size: 14px;
+                background: rgba(99, 121, 244, 0.15);
+                border-radius: 12px; 
+                color: #6379F4; 
+                margin-top: 30px;
             }
 
             footer{
@@ -164,7 +187,7 @@
                     height: max-content !important;
                     border-radius: 20px;
                     text-align: center;
-                    
+
                 }
                 .inline li{
                     display: inline;
@@ -190,6 +213,7 @@
                 .sticky + .content {
                     padding-top: 60px;
                 }
+
 
                 footer{
                     font-size: 12px;
@@ -231,7 +255,11 @@
                 .active i, .inline i:hover{
                     color: #6379F4;
                 }
-
-
-                
+                .btnDownload{
+                    padding: 10px 20px 10px 20px;
+                }
+                .pdf{
+                    display: none;
+                    margin-left:0;
+                }
             }

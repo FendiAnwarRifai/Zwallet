@@ -1,137 +1,160 @@
-   body {
-    font-family: Nunito Sans;
-    font-size: 16px;
+     body {
+      font-family: Nunito Sans;
+      font-size: 16px;
+    }
+    a{
+      text-decoration: none;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      height: 100vh;
+    }
+    /*flex item left*/
+    .flex-item-left {
+      overflow: hidden;
+      position: relative;
+      color: white;
+      background-color: #6379F4;
+      padding: 10px;
+      flex: 50%;  
+    }
+    .text-title{
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      top: 3%;
+      left: 16%;
+
+    }
+    .vector{
+      position: absolute;
+      top: 5%;
+      width: 50vw;
+      left: -2.5%;
+    }
+    .png_phone1{
+      z-index: 1;
+      position: absolute;
+      width: 21vw;
+      top: 10%;
+      left: 32%;
+    }
+    .png_phone2{
+      position: absolute;
+      width: 20vw;
+      top: 10%;
+      left: 13%;
+    }
+    .content-title{
+      position: absolute;
+      top: 72%;
+      left: 15%;
+      font-size: 20px;
+    }
+    .description{
+      position: absolute;
+      top: 78%;
+      left: 15%;
+      right: 12%;
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    /*flex item rifht*/
+    .flex-item-right {
+      position: relative;
+      background-color: white;
+      padding: 10px;
+      flex: 50%;
+    }
+    .title-right, .description-right{
+      position: relative;
+      margin-left: 10%;
+      margin-right: 25%;
+      text-align: justify;
+    }
+    .title-right{
+      margin-top: 5%;
+      font-size: 22px;
+    }
+    .description-right{
+      margin-top: 4%;
+      font-size: 16px;
+    }
+
+    .inputContainer {
+     position: relative;
+     margin-top: 8%;
+     margin-left: 10%;
+     margin-right: 30%;
+     color: rgba(169, 169, 169, 0.8);
+   }
+   .row{
+    margin-left: 2%;
   }
-  a{
-    text-decoration: none;
+  .col input{
+    border-radius: 8px;
+    border: 1px solid rgba(169, 169, 169, 0.6);
+    width: 40px;
+    height: 50px;
+    text-align: center;
+
   }
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    height: 100vh;
+  .button{
+    margin-right: 175px;
   }
-  /*flex item left*/
-  .flex-item-left {
-    overflow: hidden;
-    position: relative;
-    color: white;
-    background-color: #6379F4;
-    padding: 10px;
-    flex: 50%;  
-  }
-  .text-title{
-    position: absolute;
+  .button button{
+    width: 100%;
+    margin-top:10%;
+    padding: 16px;
     font-weight: bold;
-    font-size: 20px;
-    top: 3%;
-    left: 16%;
-
-  }
-  .vector{
-    position: absolute;
-    top: 5%;
-    width: 50vw;
-    left: -2.5%;
-  }
-  .png_phone1{
-    z-index: 1;
-    position: absolute;
-    width: 21vw;
-    top: 10%;
-    left: 32%;
-  }
-  .png_phone2{
-    position: absolute;
-    width: 20vw;
-    top: 10%;
-    left: 13%;
-  }
-  .content-title{
-    position: absolute;
-    top: 72%;
-    left: 15%;
-    font-size: 20px;
-  }
-  .description{
-    position: absolute;
-    top: 78%;
-    left: 15%;
-    right: 12%;
-    font-size: 16px;
-    text-align: justify;
+    font-size: 18px;
+    color: #88888F;
+    border-radius: 12px;
+    border:none;
+    background-color: #DADADA;
   }
 
-  /*flex item rifht*/
-  .flex-item-right {
-    position: relative;
-    background-color: white;
-    padding: 10px;
-    flex: 50%;
+  button:focus, input:focus{
+    outline:none;
   }
-  .title-right, .description-right{
-    position: relative;
-    margin-left: 10%;
-    margin-right: 25%;
-    text-align: justify;
-  }
-  .title-right{
-    margin-top: 5%;
-    font-size: 22px;
-  }
-  .description-right{
-    margin-top: 4%;
-    font-size: 16px;
-  }
+  /* Responsive layout */
+  @media only screen and (max-width: 950px) {
+    /*flex item left*/
+    .flex-item-left{
+      display: none;
+    }
 
-  .inputContainer {
-   position: relative;
-   margin-top: 8%;
-   margin-left: 10%;
-   margin-right: 30%;
-   color: rgba(169, 169, 169, 0.8);
- }
- .row{
-  margin-left: 2%;
-}
-.col input{
-  border-radius: 8px;
-  border: 1px solid rgba(169, 169, 169, 0.6);
-  width: 40px;
-  height: 50px;
-  text-align: center;
-
-}
-.button{
-  margin-right: 25%;
-}
-.button button{
-  width: 100%;
-  margin-top:10%;
-  padding: 16px;
-  font-weight: bold;
-  font-size: 18px;
-  color: #88888F;
-  border-radius: 12px;
-  border:none;
-  background-color: #DADADA;
-}
-
-button:focus, input:focus{
-  outline:none;
-}
-/* Responsive layout */
-@media (max-width: 800px) {
-  /*flex item left*/
-  .flex-item-left{
-    display: none;
+    /*flex item right*/
+    .title-right, .description-right{
+      margin-top: 2%;
+      margin-right: 20px;
+      margin-left:20px;
+    }
+    .button{
+      margin-right: 20px;
+      margin-left:20px;
+    }
+    .inputContainer {
+     margin-left: 120px;
+     margin-right: 120px;
+   }
+   .col-2 input{
+      width: 50px;
+      height: 70px;
+    }
   }
 
-  /*flex item right*/
-  .title-right, .description-right{
-    margin-top: 2%;
-    margin-right: 18%;
+  @media only screen and (max-width: 578px) {
+    .col-2{
+      float: center;
+      margin-left:10px;
+    }
+    .col-2 input{
+      width: 30px;
+      height: 40px;
+    }
+    .
   }
-
-
-}

@@ -66,7 +66,7 @@
                 color: #3A3D42;
             }
             .logout{
-                margin-top: 332px;
+                margin-top: 336px;
                 margin-bottom:20px;
 
             }
@@ -75,7 +75,8 @@
 
             .transaction{
                 border-radius: 20px;
-                padding: 38px;
+                padding: 25px;
+                padding-bottom:38px;
 
             }
             .texts{
@@ -89,8 +90,38 @@
                 line-height: 19px;
                 color: #6379F4;
             }
+            .input-icons i { 
+                position: absolute; 
+            } 
+
+            .input-icons { 
+                width: 100%; 
+                margin-bottom: 10px; 
+                color: rgba(58, 61, 66, 0.4);
+            } 
+
+            .icon { 
+                padding: 14px; 
+                min-width: 50px; 
+                text-align: center; 
+            } 
+
+            .input-field { 
+                border: none;
+                outline: 0;
+                width: 100%; 
+                padding: 10px; 
+                padding-left: 44px;
+                border-radius: 15px;
+                display: inline-block;
+                background-color: #F0F0F0;
+            } 
             .mediaTop{
-                margin-top: 36.5px;
+                margin-top: 10px;
+            }
+            .TopMedia, .mediaTop{
+                padding: 20px;
+                border-radius: 15px;
             }
             .names{
                 font-weight: bold;
@@ -100,16 +131,6 @@
             .info{
                 font-size: 14px;
                 color: #7A7886;
-            }
-            .prices{
-                font-weight: bold;
-                font-size: 16px;
-                color: #FF5B37;
-            }
-            .pricesPlus{
-                font-weight: bold;
-                font-size: 16px;
-                color: #1EC15F;
             }
 
             footer{
@@ -190,6 +211,7 @@
                 .sticky + .content {
                     padding-top: 60px;
                 }
+
 
                 footer{
                     font-size: 12px;
