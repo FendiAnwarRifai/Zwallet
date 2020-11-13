@@ -1,0 +1,225 @@
+        /* *{
+            border: 1px solid blue;
+            } */
+            #navbar, #navbarMobile{
+                display: none;
+            }
+            body {
+                font-size: 16px;
+                background-color: #FAFCFF;
+                color: #7A7886;
+            }
+
+            /*header content*/
+            .headerContent{
+                width: 100%;
+                padding-right: 115px;
+                padding-left: 115px;
+            }
+            header{
+                display: flex;
+                border-bottom-left-radius: 15px;
+                border-bottom-right-radius: 15px;
+            }
+            .leftHeader{
+                color: #6379F4;
+                float:left;
+                padding-top: 10px;
+            }
+
+            .rightHeader{
+                float: right;
+            }
+            .name{
+                font-size: 18px;
+            }
+            /*end header content*/
+
+
+            /*class navbar left */
+            .navbars{
+                position: relative;
+                height: max-content !important;
+                border-radius: 20px;
+            }
+            .navbars i{
+                font-size: 22px;
+            }
+            .navbars span{
+                font-size: 15px;
+            }
+            li{
+                list-style-type: none;
+            }
+            .menu:hover , .active{
+                border-left: 4px solid #6379F4;
+                margin-left: -16px;
+                padding-left: 12px;
+            }
+            .menu:hover a , .active a{
+                text-decoration: none;
+                color: #6379F4;
+                font-weight: bold;
+            }
+
+            a{
+                color: #3A3D42;
+            }
+            .logout{
+                margin-top: 336px;
+                margin-bottom:20px;
+
+            }
+            /*end navbar left*/
+
+            /*content css*/
+            .transaction{
+                border-radius: 20px;
+                padding: 25px;
+                padding-bottom:38px;
+
+            }
+            .texts{
+                font-weight: bold;
+                font-size: 18px;
+                color: #3A3D42;
+            }
+            .mediaTop{
+                margin-top: 10px;
+            }
+            .TopMedia, .mediaTop{
+                padding: 25px;
+                border-radius: 15px;
+            }
+            .listNumber{
+                font-weight: bold;
+                font-size: 16px;
+                color: #6379F4;
+                margin-right:18px;
+            }
+            .info{
+                font-size: 14px;
+                color: #7A7886;
+            }
+            /*end content*/
+            footer{
+                padding:15px 90px 15px 115px;
+                color: white;
+                background: #6379F4;
+            }
+
+            .contactFooter{
+                text-align: right;
+            }
+            .footerNumber{
+                margin-right:20px;
+            }
+
+
+
+
+            /*rsesponsive tablet*/
+            @media only screen and (max-width: 990px) {
+                #navbar{
+                    display: block;
+                }
+
+                .headerContent{
+                    padding-right: 0px;
+                    padding-left: 0px;
+                }
+                .name{
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+                .number{
+                    font-size: 12px;
+                }
+
+
+
+                .navbars{
+                    display: none;
+                }
+                .active{
+                    border-left:0px;
+                }
+                .inline li:hover a , .active a{
+                    text-decoration: none;
+                    color: #6379F4;
+                    font-weight: bold;
+                }
+                .inline{
+                    position: relative;
+                    height: max-content !important;
+                    border-radius: 20px;
+                    text-align: center;
+
+                }
+                .inline li{
+                    display: inline;
+                    padding-right:20px; 
+                    padding-left:30px;
+                }
+                .sticky {
+                    z-index: 1;
+                    position: fixed;
+                    left:0;
+                    /*width:calc(100% -50px);*/
+                    top: 0;
+                    padding: 0;
+                    text-align: center;
+                }
+                .sticky .inline{
+                    border-radius: 0px;             
+                }
+                .sticky li{
+                    padding-right:20px; 
+                    padding-left:40px;
+                }
+                .sticky + .content {
+                    padding-top: 60px;
+                }
+
+
+                footer{
+                    font-size: 12px;
+                    padding: 20px;
+                    text-align: center;
+                }
+                .footerNumber{
+                    float: left;
+                }
+
+            }
+
+            /*responsive mobile*/
+            @media only screen and (max-width: 767px) {
+                footer{
+                    margin-bottom:62px;
+                }
+                #navbar{
+                    display: none;
+                }
+                #navbarMobile{
+                    position: fixed;
+                    display: block;
+                    bottom: -16px;
+                    z-index: 1;
+                    left: 0;
+                    right: 0;
+                }
+                .inline{
+                    border-radius: 0;
+                }
+                .inline li{
+                    font-size: 18px;
+                    padding-left: 25px;
+                }
+                .inline i{
+                    color: #6c757d;
+                }
+                .active i, .inline i:hover{
+                    color: #6379F4;
+                }
+            }
