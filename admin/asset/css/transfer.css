@@ -79,6 +79,9 @@
                 padding-bottom:38px;
 
             }
+            .transaction a{
+                text-decoration: none;
+            }
             .texts{
                 font-weight: bold;
                 font-size: 18px;

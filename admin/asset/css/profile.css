@@ -117,6 +117,9 @@
                 background: #E5E8ED;
                 border-radius: 10px;
             } 
+            form a i{
+                color: #7A7886;
+            }
             
 
             footer{
