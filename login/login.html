@@ -7,22 +7,22 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/solid.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/regular.min.css">
-  <link rel="stylesheet" href="css/resetPw.css">
+<link rel="stylesheet" href="asset/css/login.css">
 </head>
 <title></title>
 <body>
-  <div class="flex-container">
+  <content class="flex-container">
 
     <div class="flex-item-left">
       <span class="text-title">
         Zwallet
       </span>
       <div class="images">
-        <img class="vector" src="img/vector.png">
-        <img class="png_phone1" src="img/png_phone1.png">
-        <img class="png_phone2" src="img/png_phone2.png">
+        <img class="vector" src="asset/img/vector.png">
+        <img class="png_phone1" src="asset/img/png_phone1.png">
+        <img class="png_phone2" src="asset/img/png_phone2.png">
       </div>
-      <div class="info">
+      <article class="info">
         <h2 class="content-title">App that Covering Banking Needs.</h2>
         <p class="description">
           Zwallet is an application that focussing in banking needs for all users
@@ -30,30 +30,37 @@
           5000+ users registered in Zwallet everyday with worldwide
           users coverage.
         </p>
-      </div>
+      </article>
     </div>
 
     <div class="flex-item-right">
-      <div class="title-detail">
-        <h2 class="title-right">Did You Forgot Your Password?
-          Don’t Worry, You Can Reset Your
-        Password In a Minutes.</h2>
+      <article class="title-detail">
+        <h2 class="title-right">Start Accessing Banking Needs
+          With All Devices and All Platforms
+        With 30.000+ Users</h2>
         <p class="description-right">
-          To reset your password, you must type your e-mail and we will send a link to your email and you will be directed to the reset password screens.
+          Transfering money is eassier than ever, you can access Zwallet wherever you are. Desktop, laptop, mobile phone? we cover all of that for you!
         </p>
-      </div>
-      <div class="form-input">
-        <form action="">
+      </article>
+        <form action="../admin/index.html">
           <div class="inputContainer">
             <i class="far fa-envelope fa-1x icon"> </i>
             <input class="Field" type="text" placeholder="Enter your e-mail" />
           </div>
+          <div class="inputContainer">
+            <i class="fas fa-lock fa-1x icon"></i>
+            <input class="Field" type="text" placeholder="Enter your password" />
+            <i class="far fa-eye-slash fa-1x iconEyes"></i>
+            <a href="resetPassword.html" class="forgot">Forgot Password?</a>
+          </div>
           <div class="inputContainer button">
-            <button>Confirm</button>
+            <button>Login</button>
+          </div>
+          <div class="sigup">
+            <span>Don’t have an account? Let’s <a href="signUp.html">Sign Up</a></span>
           </div>
         </form>
-      </div>
     </div>
-  </div>
+  </content>
 </body>
 </html>

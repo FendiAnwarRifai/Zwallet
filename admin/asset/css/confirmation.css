@@ -104,19 +104,32 @@
             #exampleModalLongTitle h5{
                 color: black;
             }
-            .inputContainer {
-               margin:20px;
-               color: rgba(169, 169, 169, 0.8);
-           }
-           .col-2 input{
-              border-radius: 8px;
-              border: 1px solid rgba(169, 169, 169, 0.6);
-              width: 50px;
-              height: 60px;
-              text-align: center;
-              outline: none;
 
-          }
+
+
+            .input-icons .container{
+                width: 100%;
+            }
+            .inputColom{
+                border: 1px solid rgba(169, 169, 169, 0.6);
+                border-radius: 10px;
+                height: 85px;
+                margin: 8px;
+                padding-top:28px;
+            }
+
+            .input-field {
+                border: none;
+                border-bottom: 1.5px solid rgba(169, 169, 169, 0.6);
+                padding-bottom:20px;
+                outline: 0;
+                width:100%;
+                text-align: center;
+            } 
+
+
+
+
           .btnCustom{
             padding: 10px 30px 10px 30px; 
             font-size: 14px;
@@ -253,14 +266,30 @@
             .active i, .inline i:hover{
                 color: #6379F4;
             }
-            .col-2 input{
-              margin-left:-8px;
-          }
         }
-        @media only screen and (max-width: 458px) {
-            .col-2 input{
-              width: 40px;
-              height: 40px;
-              margin-left:-15px;
-          }
-        }
+        @media only screen and (max-width: 487px){
+                .inputColom{
+                    height: 80px;
+                    margin: 2px;
+                    padding-top:22px;
+                }
+
+                .input-field {
+                    padding-bottom:22px;
+                    width:100%;
+                } 
+            }
+            @media only screen and (max-width: 418px) {
+                .inputColom{
+                    height: 68px;
+                    margin: 2px;
+                    padding-top:18px;
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
+
+                .input-field {
+                    padding-bottom:12px;
+                    width:100%;
+                } 
+            }

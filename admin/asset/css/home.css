@@ -33,19 +33,28 @@
 		 		font-size: 18px;
 		 	}
 		 	/*end header content*/
-
-
-
-		 	.dropdownRadius{
+		 	.dropdown-menu{
+		 		margin-top:80px;
+		 		width: 460px;
 		 		border-radius: 15px;
-		 		padding:15px;
+		 		z-index: 2;
 		 	}
-		 	.dropdownContent{
-		 		border-radius:10px; 
-		 		padding:20px 120px 20px 30px;
+		 	.dropdown-menu[x-placement^=bottom],.dropdown-menu[x-placement^=top] {
+		 		right: 1px;
 		 	}
-		 	.thisWeek{
-		 		padding-top:40px;
+		 	.iconDown{
+		 		font-size: 24px;color: #4CEDB3; margin:8px 8px 0px 8px;
+		 	}
+		 	.iconUp{
+		 		font-size: 24px;color: #FF5B37; margin:8px 8px 0px 8px;
+		 	}
+		 	.notification-box{
+		 		padding: 10px 0px; 
+		 		border-radius: 15px;
+		 		
+		 	}
+		 	.notifEnd{
+		 		margin-bottom: 40px;
 		 	}
 
 		 	/*class navbar left	*/
@@ -118,9 +127,6 @@
 		 	}
 		 	.income{
 		 		margin-right: 20%;
-		 	}
-		 	.expense{
-
 		 	}
 		 	.graphic{
 		 		margin-top:25px;
@@ -239,10 +245,6 @@
 		 	.footerNumber{
 		 		margin-right:20px;
 		 	}
-
-
-
-
 		 	/*rsesponsive tablet*/
 		 	@media only screen and (max-width: 990px) {
 		 		#navbar{
@@ -260,10 +262,6 @@
 		 		.number{
 		 			font-size: 12px;
 		 		}
-		 		.dropdownContent{ 
-		 			padding-right:90px;
-		 		}
-
 
 		 		.navbars{
 		 			display: none;
@@ -379,7 +377,7 @@
 		 			position: fixed;
 		 			display: block;
 		 			bottom: -16px;
-		 			z-index: 1;
+		 			z-index: 2;
 		 			left: 0;
 		 			right: 0;
 		 		}
@@ -396,7 +394,17 @@
 		 		.active i, .inline i:hover{
 		 			color: #6379F4;
 		 		}
+		 	}
 
-
-		 		
+		 	@media (max-width: 487px) {
+		 		.dropdown-menu{
+		 			top: 50px; 
+		 			width: 420px;
+		 		}
+		 	}
+		 	@media (max-width: 430px) {
+		 		.dropdown-menu{
+		 			top: 50px; 
+		 			width: 340px;
+		 		}
 		 	}
