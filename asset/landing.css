@@ -1,0 +1,179 @@
+.slideOne{
+	height: max-content !important; 
+	background-image: url(img/img1.png); 
+	background-size: cover;
+}
+.leftHeader{
+	color: white;
+	float:left;
+	padding-top: 10px;
+	margin-top: 3%;
+	margin-left: 8%;
+}
+.leftHeader h4{
+	font-size: 34px;
+}
+
+.rightHeader{
+	float: right;
+	margin-top: 4%;
+	margin-right: 6%;
+}
+.btnLogin{
+	border: 2px solid white;
+	background-color:#6379F4;
+	color: white !important;
+	width: 110px;
+	border-radius: 12px;
+	margin-right: 18px;
+	padding: 8px;
+}
+.btnSigup, .btnTryit{
+	background-color: white;
+	color: #6379F4 !important;
+	width: 110px;
+	border-radius: 12px;
+	padding: 8px;
+}
+.title{
+	text-align: center;
+	font-size: 58px;
+	font-weight:bold;
+	color:white;
+	width:35%;
+	margin-left: 34%;
+	margin-top: 18%;
+}
+.info{
+	color: white;
+	width:30%;
+	margin-left: 36%;
+	margin-top: 3%;
+}
+.btnTryit{
+	margin-top: 50px;
+	margin-bottom: 14%;
+	padding: 12px;
+	width: 130px;
+}
+
+
+/*slide 2*/
+.slideTwo, .slideSix{
+	background-color:#FAFCFF;
+}
+.titles,.title4 ,.title6{
+	color: black;
+	font-size: 52px;
+	font-weight:bold;
+	margin-top: 74px;
+}
+.colorText{
+	color: #6379F4;
+}
+.justContent{
+	margin: 90px; 
+	margin-top: 52px;
+}
+.description,.description4, .detail6{
+	width:38%;
+	margin-left: 30%;
+	margin-top: 20px;
+}
+.wrap{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-left: 28px;
+	margin-right:28px;
+	border-radius: 12px; 
+}
+.detail{
+	padding:20px;
+	color: #3A3D42;
+}
+
+/*slide3*/
+.slideThree, .slideFive{
+	background-color: #EFF0FC;
+}
+.slideThree .text-center{
+	margin: 52px 90px;
+}
+
+
+/*slide4*/
+.slide4 button{
+	margin-top: 74px;
+	background: rgba(71, 58, 209, 0.06);
+	width: 620px;
+	padding:24px;
+	font-size: 48px;
+	border-radius: 85px;
+	border: none;
+	outline: 0;
+	color: #6379F4;
+	font-weight:bold;
+}
+.title4{
+	margin-top: 30px;
+}
+.description4{
+	margin-bottom:30px;
+}
+
+
+/*slide5*/
+.imagesDemo{
+	width: 62%;
+}
+.title5{
+	font-size: 52px;
+	font-weight:bold;
+	margin-top: 180px;
+	width: 80%;
+	color: black; 
+	margin-bottom:60px;
+}
+.slideFiveContent{
+	padding: 20px;
+	border-radius:12px; 
+	margin-right: 80px; 
+	margin-bottom:30px;
+}
+.number{
+	color: #6379F4; 
+	margin-right:18px;
+}
+.detail5{
+	margin-top: 18px;
+}
+
+/*slide6*/
+.contentUser{
+	margin: 90px; 
+	margin-top: 52px;
+}
+.userDetail{
+	padding: 68px; 
+	border-radius: 30px;
+}
+.vcenter{
+	margin-top: 178px;
+	padding: 20px;
+	border-radius:86px; 
+}
+.vcenter i{
+	font-size: 24px;
+}
+
+
+/*foooter*/
+.contactFooter{
+	text-align: right;
+}
+.footerNumber{
+	margin-right:20px;
+}
+/**{
+	border: 1px solid blue;
+}*/

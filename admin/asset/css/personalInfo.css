@@ -149,6 +149,17 @@
                 }
 
 
+                .title{
+                    font-size: 14px;
+                }
+                .names{
+                    font-size: 16px;
+                }
+                .relative a{
+                    right: 0px;
+                }
+
+
 
                 .navbars{
                     display: none;
@@ -237,8 +248,8 @@
 
             }
 
- @media only screen and (max-width: 418px) {
-            .profile p{
-                width:100%;
+            @media only screen and (max-width: 418px) {
+                .profile p{
+                    width:100%;
+                }
             }
-        }
